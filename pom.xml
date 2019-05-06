@@ -59,7 +59,19 @@
 	      <version>0.0.6</version>
 	    </extension>
 	</extensions>
-  </build>
+	</build>
+ 	<repositories>
+	  <repository>
+	    <id>JonathanTonckensHU-hu-test</id>
+	    <url>https://packagecloud.io/JonathanTonckensHU/hu-test/maven2</url>
+	    <releases>
+	      <enabled>true</enabled>
+	    </releases>
+	    <snapshots>
+	      <enabled>true</enabled>
+	    </snapshots>
+	  </repository>
+	</repositories>
 	<distributionManagement>
 		<repository>
 	    	<id>packagecloud-JonathanTonckensHU</id>
